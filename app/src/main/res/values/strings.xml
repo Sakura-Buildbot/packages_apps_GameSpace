@@ -49,6 +49,8 @@
         <item>Vibrate</item>
         <item>Normal</item>
     </string-array>
+    
+	<string name="lock_gesture_title">Lock gesture</string>
 
     <string name="suppress_fullscreen_intent_title">Block fullscreen event</string>
     <string name="suppress_fullscreen_intent_summary">Prevent fullscreen events like incoming calls from appearing while in-game</string>

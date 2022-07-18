@@ -50,6 +50,12 @@
         <item>默认</item>
     </string-array>
 
+    <string name="per_app_angle_title">使用ANGLE</string>
+    <string name="per_app_angle_summary">ANGLE是个实验性渲染功能 可能会把游戏画面变成奇奇怪怪的样子（？</string>
+    <string name="cant_find_angle_pkg">哒咩哒咩，你的设备用不了ANGLE啦！</string>
+	
+    <string name="per_app_unregister">从游戏列表中删除 %1$s </string>
+
     <string name="suppress_fullscreen_intent_title">阻止全屏事件</string>
     <string name="suppress_fullscreen_intent_summary">防止打游戏的时候出现诸如来电之类的全屏事件！</string>
 </resources>

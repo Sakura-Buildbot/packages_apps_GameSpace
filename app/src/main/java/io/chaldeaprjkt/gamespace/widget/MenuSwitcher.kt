@@ -57,8 +57,8 @@ class MenuSwitcher @JvmOverloads constructor(
         showFps = if (isExpanded) false else appSettings.showFps
         when {
             isExpanded -> R.drawable.ic_close
-            location > 0 -> R.drawable.FG
-            else -> R.drawable.FG
+            location > 0 -> R.drawable.ic_float
+            else -> R.drawable.ic_float
         }.let { setMenuIcon(it) }
         updateFrameRateBinding()
     }

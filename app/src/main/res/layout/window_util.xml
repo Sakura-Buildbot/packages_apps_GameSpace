@@ -26,7 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
-        android:background="@drawable/bar_expanded"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingVertical="5dp"

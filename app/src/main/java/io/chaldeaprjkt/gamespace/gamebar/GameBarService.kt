@@ -229,14 +229,6 @@ class GameBarService : Hilt_GameBarService() {
         val barDragged = !barExpanded && barView.translationX == 0f
         val collapsedAtStart = !barDragged && barLayoutParam.x < 0
         val collapsedAtEnd = !barDragged && barLayoutParam.x > 0
-        barView.setBackgroundResource(
-            when {
-                barExpanded -> R.drawable.bar_expanded
-                collapsedAtStart -> R.drawable.bar_collapsed_start
-                collapsedAtEnd -> R.drawable.bar_collapsed_end
-                else -> R.drawable.bar_dragged
-            }
-        )
     }
 
     private fun updateContainerGaps() {

@@ -50,6 +50,8 @@
         <item>默认</item>
     </string-array>
 
+	<string name="lock_gesture_title">禁用手势</string>
+
     <string name="suppress_fullscreen_intent_title">阻止全屏事件</string>
     <string name="suppress_fullscreen_intent_summary">打游戏的时候不能被其他东西打扰啦~</string>
 
